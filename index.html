@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferandel - mapa świata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/main-min.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="search-tool">
+            <div class="search-box">
+                <button class="search-box__btn"><img class="search-box__btn-img" src="./dist/img/search-min.svg" alt=""></button>
+                <input type="text" class="search-box__input" placeholder="znajdź miejsce...">
+            </div>
+            <ul class="search-list">
+            </ul>
+        </div>
+      
+    </nav>
+    <main class="main">
+        <div class="map-container" id="map-container">
+            <img class="map-container__corner-1" src="./dist/img/cornerTopLeft2-min.png" alt="">
+            <img class="map-container__corner-2" src="./dist/img/cornerTopRight2-min.png" alt="">
+            <img class="map-container__corner-3" src="./dist/img/cornerBottomRight2-min.png" alt="">
+            <img class="map-container__corner-4" src="./dist/img/cornerBottomLeft2-min.png" alt="">
+            <span class="map-container__border-1"></span>
+            <span class="map-container__border-2"></span>
+            <span class="map-container__border-3"></span>
+            <span class="map-container__border-4"></span>
+            <!-- worldmap parts -->
+            <img class="map-container__part map-container__part--image-1" src="./dist/img/ferandel-img-1-min.jpg" alt="">
+            <img class="map-container__part map-container__part--image-2" src="./dist/img/ferandel-img-2-min.jpg" alt="">
+            <img class="map-container__part map-container__part--image-3" src="./dist/img/ferandel-img-3-min.jpg" alt="">
+            <img class="map-container__part map-container__part--image-4" src="./dist/img/ferandel-img-4-min.jpg" alt="">
+        </div>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./dist/js/index-min.js"></script>
+</body>
+
+</html>
