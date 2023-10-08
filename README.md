@@ -1,5 +1,5 @@
 ## Live link: 
-https://boberere.github.io/ferandel-world-map/
+https://boberere.github.io/ferandel_world_map/
 
 ## Table of contents
 
